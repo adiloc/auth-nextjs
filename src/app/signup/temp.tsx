@@ -8,7 +8,7 @@ import { toast } from "react-hot-toast";
 
 
 
-export default function SignupPage() {
+export default function SignUpPage() {
     const router = useRouter();
     const [user, setUser] = React.useState({
         email: "",
@@ -18,7 +18,7 @@ export default function SignupPage() {
     const [buttonDisabled, setButtonDisabled] = React.useState(false);
     const [loading, setLoading] = React.useState(false);
 
-    const onSignup = async () => {
+    const onSignUp = async () => {
         try {
             setLoading(true);
             const response = await axios.post("/api/users/signup", user);

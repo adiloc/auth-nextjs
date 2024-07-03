@@ -41,7 +41,7 @@ console.log(user)
         className="p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-300"
         onClick={onLogin}
         >Login here</button>
-        <Link href="/signup">Visit login page</Link>
+        <Link href="/signu">Visit login page</Link>
     </div>
   )
 }
